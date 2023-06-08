@@ -113,7 +113,7 @@ function Content({ handlePlayAgain, timeStart }) {
                                 id='1'
                                 className={`option ${choose && selectedAnswer === index ? 'correct' : ''} 
                                            ${!choose && selectedAnswer === index ? 'incorrect' : ''}
-                                           ${timeOver && correctAnswer === index ? 'correct' : ''}`}
+                                           `}
                                 onClick={() => checkAnswer(index)}
                             >
                                 {answer}
