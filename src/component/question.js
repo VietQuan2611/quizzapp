@@ -87,7 +87,7 @@ const questions = [
     {
         question: 'Đại dương nào nhỏ nhất thế giới? ',
         answers: ['Thái Bình Dương', 'Đại Tây Dương', 'Ấn Độ Dương', 'Bắc Băng Dương'],
-        correctAnswer: 0,
+        correctAnswer: 3,
     },
     {
         question: 'Ánh sáng từ Mặt trời tới trái đất mất khoảng bao nhiêu phút? ',
